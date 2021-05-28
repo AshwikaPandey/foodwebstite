@@ -1,0 +1,166 @@
+body{
+   border:#3c4849;
+    border-radius: 10px;
+    opacity: 2;
+    background-image: url("pinic.jpg")
+
+}
+p,h2{
+    text-align: center;
+}
+.image1:hover{
+    position: relative;
+    
+}
+.image1 p{
+position:absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+opacity: 0;
+
+}
+.image1:hover p {
+   opacity: 1; 
+}
+.image1:hover img{
+    opacity: 0.5;
+} 
+.image1:hover{
+    position: relative;
+    
+}
+.image1 p{
+position:absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+opacity: 0;
+
+}
+
+.image2:hover{
+    position: relative;
+    
+}
+.image2 p{
+position:absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+opacity: 0;
+
+}
+.image2:hover p {
+   opacity: 1; 
+}
+.image2:hover img{
+    opacity: 0.5;
+} 
+.image2:hover{
+    position: relative;
+    
+}
+.image1 p{
+position:absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+opacity: 0;
+
+}
+
+*{
+    font-family: Helvetica; 
+    border: 400px;
+    margin:0px
+}
+.food1{
+    display: flex;
+    flex-direction: column;
+    
+}
+.food2{
+    background-color: mintcream;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro{
+    margin:5px;
+    display: flex;
+    text-decoration-line: none;
+    color:#f7fff5;
+    font-family:sans-serif;
+    border:#00bfc5;
+    border-radius: 90px;
+    background-color: lightpink;
+    display: flex;
+ justify-content: space-between;
+ 
+    flex-shrink:  7;
+}
+
+.pizza{
+    display: flex;
+   
+    text-decoration-line: none;
+    color: rgb(229, 229, 236);
+   font-family: sans-serif;
+    background-color: lightpink;
+   
+
+}
+.paneer{
+    display: flex;
+    justify-content: space-evenly;
+    display: flex;
+    text-decoration-line: none;
+    color:#f6f6f6;
+    font-family: sans-serif;
+    border: #affa98;
+    border-color: solid;
+    
+    background-color:lightsalmon
+}
+.Dosa{
+    display: flex;
+    justify-content: space-between;
+    text-decoration-line: none;
+    color: rgba(255, 255, 255, 0.774);
+    font-family: sans-serif;
+    background-color: lightskyblue;
+}
+.burritos{
+    display: flex;
+    
+    padding-left: 230px;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    display: flex;
+    text-decoration-line:none;
+    color: rgba(253, 253, 253, 0.801);
+    font-family: sans-serif;
+background-color: lightskyblue;
+}
+.biryani{
+    padding-left: 400px;
+}
+
+.image1:hover{
+    transform:scale(1.2,1.2)
+    opacity 0.5; 
+}
+.image2:hover{
+    transform:scale(1.2,1.2)
+     
+}
+.video:hover{
+    transform: scale(1.2,1.2)
+}
+a:link{
+    color: mediumturquoise;
+}
+a:visited{
+    color: mediumvioletred;
+}
